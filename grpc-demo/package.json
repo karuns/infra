@@ -1,0 +1,16 @@
+{
+  "name": "grpc-demo",
+  "version": "1.0.0",
+  "description": "ref : https://www.youtube.com/watch?v=Yw4rkaTc0f8&t=135s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.2",
+    "grpc": "^1.24.10"
+  }
+}
