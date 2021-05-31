@@ -22,9 +22,9 @@ client.readTodos({}, (err, response) => {
 })
 
 
+// Streaming example
 const call = client.readTodosStream();
 call.on("data", item => {
     console.log("Received from server" + JSON.stringify(item))
 })
-
 call.on("end", e => console.log("Server done!"))
